@@ -3,3 +3,6 @@ uvicorn
 selenium
 beautifulsoup4
 pymongo
+webdriver-manager
+pandas
+numpy
