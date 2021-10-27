@@ -1,8 +1,8 @@
 from fastapi import FastAPI
-from scraper import scraper
+import scraper
 
 app=FastAPI()
-posts=scraper()
+posts=scraper.scraper()
 
 @app.get("/scrape")
 async def read_item(url:str,num:str):
